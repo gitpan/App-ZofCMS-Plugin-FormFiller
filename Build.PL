@@ -12,7 +12,9 @@ my $builder = Module::Build->new(
     },
     build_recommends => {
         'App::ZofCMS::Test::Plugin' => 0.0104,
+        'perl' => '5.006',
     },
+    configure_requires => { 'Module::Build' => 0 },
     add_to_cleanup      => [ 'App-ZofCMS-Plugin-FormFiller-*' ],
     create_makefile_pl => 'traditional',
 );
