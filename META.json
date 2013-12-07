@@ -16,7 +16,8 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : "0"
+            "Test::More" : "0",
+            "perl" : "5.006"
          }
       },
       "configure" : {
@@ -28,7 +29,7 @@
    "provides" : {
       "App::ZofCMS::Plugin::FormFiller" : {
          "file" : "lib/App/ZofCMS/Plugin/FormFiller.pm",
-         "version" : "0.0102"
+         "version" : "0.0103"
       }
    },
    "release_status" : "stable",
@@ -37,5 +38,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.0102"
+   "version" : "0.0103"
 }

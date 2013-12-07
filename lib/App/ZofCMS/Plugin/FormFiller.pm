@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::FormFiller;
 use warnings;
 use strict;
 
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 
 sub new { bless {}, shift }
 
@@ -78,7 +78,7 @@ right priorities.
     plug_form_filler => {
         params => [ qw/login name email/ ],
     },
-    
+
     plug_form_filler => {
         params => {
              t_login    => 'query_login',
