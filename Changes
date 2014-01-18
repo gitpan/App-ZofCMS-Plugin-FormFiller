@@ -1,5 +1,9 @@
 Revision history for App-ZofCMS-Plugin-FormFiller
 
+0.0104  2014-01-17
+        - Fixed an error of requiring perl 5.006+ in build_prereqs
+          instead of prereqs
+
 0.0103  2013-12-07
         - Moved perl version prereq out from build_recommends, in which
           it was placed by accident

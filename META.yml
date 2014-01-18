@@ -4,7 +4,6 @@ author:
   - "Zoffix <'zoffix@cpan.org'>"
 build_requires:
   Test::More: 0
-  perl: 5.006
 configure_requires:
   Module::Build: 0
 dynamic_config: 1
@@ -17,7 +16,9 @@ name: App-ZofCMS-Plugin-FormFiller
 provides:
   App::ZofCMS::Plugin::FormFiller:
     file: lib/App/ZofCMS/Plugin/FormFiller.pm
-    version: 0.0103
+    version: 0.0104
+requires:
+  perl: 5.006
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.0103
+version: 0.0104

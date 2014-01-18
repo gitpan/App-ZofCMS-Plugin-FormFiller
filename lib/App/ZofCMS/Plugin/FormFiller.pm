@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::FormFiller;
 use warnings;
 use strict;
 
-our $VERSION = '0.0103';
+our $VERSION = '0.0104';
 
 sub new { bless {}, shift }
 
